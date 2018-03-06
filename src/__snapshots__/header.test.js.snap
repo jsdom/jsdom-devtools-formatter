@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header returns a ellipsis for a complicated DOM element 1`] = `
+Array [
+  "span",
+  Object {
+    "style": "
+    color: rgb(168, 148, 166);
+  ",
+  },
+  "<",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(136, 18, 128);
+  ",
+    },
+    "div",
+  ],
+  " ",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(153, 69, 0);
+    unicode-bidi: -webkit-isolate;
+  ",
+    },
+    "class",
+  ],
+  "=\\"",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(26, 26, 166);
+    unicode-bidi: -webkit-isolate;
+  ",
+    },
+    "foo bar baz",
+  ],
+  "\\"",
+  " ",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(153, 69, 0);
+    unicode-bidi: -webkit-isolate;
+  ",
+    },
+    "id",
+  ],
+  "=\\"",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(26, 26, 166);
+    unicode-bidi: -webkit-isolate;
+  ",
+    },
+    "root",
+  ],
+  "\\"",
+  ">",
+  "…",
+  "<",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(136, 18, 128);
+  ",
+    },
+    "/div",
+  ],
+  ">",
+]
+`;
+
+exports[`header returns summary for a simple DOM element 1`] = `
+Array [
+  "span",
+  Object {
+    "style": "
+    color: rgb(168, 148, 166);
+  ",
+  },
+  "<",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(136, 18, 128);
+  ",
+    },
+    "div",
+  ],
+  ">",
+  "test text",
+  "<",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: rgb(136, 18, 128);
+  ",
+    },
+    "/div",
+  ],
+  ">",
+]
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`body returns expected JsonML for 1st-level elements 1`] = `
+Array [
+  "span",
+  Object {
+    "style": "
+    list-style-type: none;
+    margin: 0 0 0 12px;
+  ",
+  },
+  Array [
+    "span",
+    Object {},
+  ],
+  Array [
+    "span",
+    Object {},
+    Array [
+      "object",
+      Object {
+        "object": <h1
+          id="title"
+        >
+          A title
+        </h1>,
+      },
+    ],
+  ],
+  Array [
+    "span",
+    Object {},
+    "
+",
+  ],
+  Array [
+    "span",
+    Object {},
+    Array [
+      "object",
+      Object {
+        "object": <article
+          class="example"
+        >
+          
+        
+          <p>
+            Lorem ipsum
+          </p>
+          
+        
+          <p>
+            and so forth
+          </p>
+          
+      
+        </article>,
+      },
+    ],
+  ],
+  Array [
+    "span",
+    Object {},
+    "
+",
+  ],
+  Array [
+    "span",
+    Object {},
+    Array [
+      "object",
+      Object {
+        "object": <div
+          class=""
+        >
+          
+        
+          <!-- a comment -->
+          
+      
+        </div>,
+      },
+    ],
+  ],
+  Array [
+    "span",
+    Object {},
+    "
+",
+  ],
+  Array [
+    "span",
+    Object {},
+    Array [
+      "object",
+      Object {
+        "object": <footer>
+          
+        Foo bar
+      
+        </footer>,
+      },
+    ],
+  ],
+  Array [
+    "span",
+    Object {},
+    "
+",
+  ],
+]
+`;
