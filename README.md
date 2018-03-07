@@ -59,7 +59,7 @@ It should stop at the `debugger` call, from there you can follow the inlined com
 ## Related resources
 
 - https://github.com/jsdom/jsdom
-- [Custom Object Formatters in Chrome DevTools (gdoc)](https:// bit.ly/object-formatters)
+- [Custom Object Formatters in Chrome DevTools (gdoc)](https://bit.ly/object-formatters)
 - [Contributing to Chrome DevTools (gdoc)](https://bit.ly/devtools-contribution-guide)
 - [Debugging Node.js with Chrome DevTools (medium)](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27)
 - [Debugging Node.js Apps](https://nodejs.org/en/docs/inspector/)
