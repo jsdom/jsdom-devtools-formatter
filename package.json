@@ -1,7 +1,8 @@
 {
   "name": "jsdom-devtools-formatter",
   "version": "0.1.0",
-  "description": "Format DOM elements to look like real DOM elements in the Chrome Devtools console",
+  "description": "Format jsdom's elements to look like real DOM elements in the Chrome Devtools console",
+  "repository": "https://github.com/viddo/jsdom-devtools-formatter",
   "engines": {
     "node": ">=8.9.4"
   },
@@ -13,8 +14,8 @@
   "scripts": {
     "test": "jest",
     "test:debug": "node --inspect=0.0.0.0 ./node_modules/.bin/jest --runInBand",
-    "test:jest": "node --inspect=0.0.0.0 ./node_modules/.bin/jest --runInBand manual-testing/jest",
-    "test:node": "node --inspect=0.0.0.0 manual-testing/node.js"
+    "test:manual_jest": "node --inspect=0.0.0.0 ./node_modules/.bin/jest --runInBand manual-testing/jest",
+    "test:manual_node": "node --inspect=0.0.0.0 manual-testing/node.js"
   },
   "keywords": [
     "jsdom",
