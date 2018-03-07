@@ -1,7 +1,7 @@
 {
   "name": "jsdom-devtools-formatter",
   "version": "0.1.0",
-  "description": "Format jsdom's elements to look like real DOM elements in the Chrome Devtools console",
+  "description": "Make jsdom elements look like real DOM elements in Chrome Devtools console",
   "repository": "https://github.com/viddo/jsdom-devtools-formatter",
   "engines": {
     "node": ">=8.9.4"
