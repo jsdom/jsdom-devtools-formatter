@@ -2,20 +2,30 @@
 
 exports[`body returns expected JsonML for 1st-level elements 1`] = `
 Array [
-  "span",
+  "ol",
   Object {
     "style": "
     list-style-type: none;
-    margin: 0 0 0 12px;
+    margin: 2px 0 0 28px;
+    padding: 0;
   ",
   },
   Array [
-    "span",
-    Object {},
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
+    "",
   ],
   Array [
-    "span",
-    Object {},
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
     Array [
       "object",
       Object {
@@ -28,14 +38,21 @@ Array [
     ],
   ],
   Array [
-    "span",
-    Object {},
-    "
-",
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
+    "",
   ],
   Array [
-    "span",
-    Object {},
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
     Array [
       "object",
       Object {
@@ -59,14 +76,21 @@ Array [
     ],
   ],
   Array [
-    "span",
-    Object {},
-    "
-",
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
+    "",
   ],
   Array [
-    "span",
-    Object {},
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
     Array [
       "object",
       Object {
@@ -83,14 +107,21 @@ Array [
     ],
   ],
   Array [
-    "span",
-    Object {},
-    "
-",
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
+    "",
   ],
   Array [
-    "span",
-    Object {},
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
     Array [
       "object",
       Object {
@@ -103,10 +134,13 @@ Array [
     ],
   ],
   Array [
-    "span",
-    Object {},
-    "
-",
+    "li",
+    Object {
+      "style": "
+    margin-bottom: 2px;
+  ",
+    },
+    "",
   ],
 ]
 `;

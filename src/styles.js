@@ -1,5 +1,6 @@
 // matches https://github.com/ChromeDevTools/devtools-frontend/blob/master/front_end/ui/inspectorSyntaxHighlight.css
 // webkit-html-* styles
+const defaultMargin = '2px';
 module.exports = {
   tag: `
     color: rgb(168, 148, 166);
@@ -17,7 +18,11 @@ module.exports = {
   `,
   body: `
     list-style-type: none;
-    margin: 0 0 0 12px;
+    margin: ${defaultMargin} 0 0 28px;
+    padding: 0;
+  `,
+  item: `
+    margin-bottom: ${defaultMargin};
   `,
   comment: `
     color: rgb(35, 110, 37);

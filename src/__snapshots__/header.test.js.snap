@@ -65,7 +65,16 @@ Array [
   ],
   "\\"",
   ">",
-  "…",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: black;
+    unicode-bidi: -webkit-isolate;
+  ",
+    },
+    "…",
+  ],
   "<",
   Array [
     "span",
@@ -99,7 +108,16 @@ Array [
     "div",
   ],
   ">",
-  "test text",
+  Array [
+    "span",
+    Object {
+      "style": "
+    color: black;
+    unicode-bidi: -webkit-isolate;
+  ",
+    },
+    "test text",
+  ],
   "<",
   Array [
     "span",

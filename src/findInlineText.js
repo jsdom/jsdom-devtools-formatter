@@ -10,6 +10,6 @@ module.exports = x => {
 
   const str = childNodes.reduce((str, c) => str + c.nodeValue, '');
   if (str.length <= 80) {
-    return str;
+    return str.trim();
   }
 }
