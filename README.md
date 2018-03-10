@@ -20,6 +20,8 @@ npm install jsdom-devtools-formatter
 require('jsdom-devtools-formatter').install();
 ```
 
+E.g. for Jest it's probably easiest to integrate through [`setupTestFrameworkScriptFile` configuration](https://facebook.github.io/jest/docs/en/configuration.html#setuptestframeworkscriptfile-string).
+
 As a one-time thing also need to:
 - Open Chrome's Devtools
 - Click the gear in the upper right to go to Settings
