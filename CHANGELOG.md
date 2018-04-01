@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [keepachan
 
 
 ## [unreleased]
+### Added
+- `.uninstall` function
+
 
 ## [0.1.0] - 2018-03-06
 ### Added

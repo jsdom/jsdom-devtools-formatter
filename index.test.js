@@ -24,4 +24,15 @@ describe('.install', () => {
     formatter.install();
     expect(global.devtoolsFormatters).toEqual([formatter]);
   })
+
+  describe('.uninstall', () => {
+    it('removes formatter as expected', () => {
+      formatter.uninstall();
+      expect(global.devtoolsFormatters).toEqual([]);
+
+      // idempotent
+      formatter.uninstall();
+      expect(global.devtoolsFormatters).toEqual([]);
+    })
+  })
 })
