@@ -1,0 +1,3 @@
+- update changelog (+commit)
+- npm version <new-version>
+- npm publish
