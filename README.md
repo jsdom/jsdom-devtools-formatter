@@ -2,6 +2,7 @@
 
 In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:
 ![before.png](before.png)
+<!-- screenshots should be of width 888px to match default layout on github.com -->
 
 …let's just inspect them like they were real HTML elements:
 ![after.png](after.png)
