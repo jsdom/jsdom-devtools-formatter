@@ -12,6 +12,11 @@ const formatter = {
     if (global.devtoolsFormatters.indexOf(formatter) === -1) {
       global.devtoolsFormatters.push(formatter);
     }
+  },
+
+  uninstall: () => {
+    global.devtoolsFormatters = global.devtoolsFormatters || [];
+    global.devtoolsFormatters = global.devtoolsFormatters.filter(x => x !== formatter);
   }
 };
 
