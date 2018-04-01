@@ -1,10 +1,10 @@
 # jsdom-devtools-formatter [![Build Status](https://travis-ci.org/viddo/jsdom-devtools-formatter.svg?branch=master)](https://travis-ci.org/viddo/jsdom-devtools-formatter)
 
 In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:
-![before.jpg](before.jpg)
+![before.png](before.png)
 
 …let's just inspect them like they were real HTML elements:
-![after.jpg](after.jpg)
+![after.png](after.png)
 
 Typical use-case would be some script/test that utilizes [jsdom](https://github.com/jsdom/jsdom) in a Node.js environment, e.g. [Jest](https://facebook.github.io/jest/).
 
