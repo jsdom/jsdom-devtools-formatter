@@ -11,7 +11,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [keepachan
 - `.uninstall` function
 
 ### Changed
-- Fix [#2](https://github.com/viddo/jsdom-devtools-formatter/issues/2) _readme screenshots would look nicer as PNGs, instead of JPEG_
+- Fix [#2](https://github.com/jsdom/jsdom-devtools-formatter/issues/2) _readme screenshots would look nicer as PNGs, instead of JPEG_
 
 
 ## [0.1.0] - 2018-03-06

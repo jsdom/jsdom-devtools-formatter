@@ -1,4 +1,4 @@
-# jsdom-devtools-formatter [![Build Status](https://travis-ci.org/viddo/jsdom-devtools-formatter.svg?branch=master)](https://travis-ci.org/viddo/jsdom-devtools-formatter)
+# jsdom-devtools-formatter [![Build Status](https://travis-ci.org/jsdom/jsdom-devtools-formatter.svg?branch=master)](https://travis-ci.org/jsdom/jsdom-devtools-formatter)
 
 In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:
 ![before.png](before.png)
