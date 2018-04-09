@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [keepachan
 
 ## [unreleased]
 
+## [1.0.0] - 2018-04-09
+- release under new home
+
 
 ## [0.2.0] - 2018-04-01
 ### Added
