@@ -29,7 +29,7 @@ E.g. for Jest it's probably easiest to integrate through [`setupTestFrameworkScr
 
 As a one-time thing also need to:
 - Open Chrome's Devtools
-- Click the gear in the upper right to go to Settings
+- Click the "⠇" in the upper-right corner > Settings
 - Under "Console", check _"Enable custom formatters"_
 
 
