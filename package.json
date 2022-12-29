@@ -4,7 +4,7 @@
   "description": "Make jsdom elements look like real DOM elements in Chrome Devtools console",
   "repository": "https://github.com/jsdom/jsdom-devtools-formatter",
   "engines": {
-    "node": ">=8.9.4"
+    "node": ">=18.12.1"
   },
   "main": "index.js",
   "files": [
@@ -13,9 +13,9 @@
   ],
   "scripts": {
     "test": "jest",
-    "test:debug": "node --inspect=0.0.0.0 ./node_modules/.bin/jest --runInBand",
-    "test:manual_jest": "node --inspect=0.0.0.0 ./node_modules/.bin/jest --runInBand manual-testing/jest",
-    "test:manual_node": "node --inspect=0.0.0.0 manual-testing/node.js"
+    "test:debug": "node --inspect ./node_modules/.bin/jest --runInBand",
+    "test:manual_jest": "node --inspect ./node_modules/.bin/jest --runInBand manual-testing/jest",
+    "test:manual_node": "node --inspect manual-testing/node.js"
   },
   "keywords": [
     "jsdom",
@@ -27,8 +27,8 @@
   "author": "Nicklas Gummesson",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^22.4.2",
-    "jsdom": "^11.6.2"
-  },
-  "dependencies": {}
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "jsdom": "^20.0.3"
+  }
 }
