@@ -27,8 +27,8 @@
   "author": "Nicklas Gummesson",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^22.4.2",
-    "jsdom": "^11.6.2"
+    "jest": "^29.3.1",
+    "jsdom": "^20.0.3"
   },
   "dependencies": {}
 }
