@@ -28,7 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
     "jsdom": "^20.0.3"
-  },
-  "dependencies": {}
+  }
 }
