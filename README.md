@@ -7,7 +7,7 @@ In a nutshell: Instead of trying to understand what [jsdom](https://github.com/j
 …let's just inspect them like they were real HTML elements:
 ![after.png](after.png)
 
-Typical use-case would be some script/test that utilizes [jsdom](https://github.com/jsdom/jsdom) in a Node.js environment, e.g. [Jest](https://facebook.github.io/jest/).
+Typical use-case would be some script/test that utilizes [jsdom](https://github.com/jsdom/jsdom) in a Node.js environment, e.g. [Jest](https://jestjs.io/).
 
 
 ## How to use
@@ -20,12 +20,14 @@ npm install jsdom-devtools-formatter
 // in some file.js
 const jsdomDevtoolsFormatter = require('jsdom-devtools-formatter');
 jsdomDevtoolsFormatter.install();
+```
 
+```js
 // You can also opt-out at some later point by:
 jsdomDevtoolsFormatter.uninstall();
 ```
 
-E.g. for Jest it's probably easiest to integrate through [`setupTestFrameworkScriptFile` configuration](https://facebook.github.io/jest/docs/en/configuration.html#setuptestframeworkscriptfile-string).
+E.g. for Jest you need to install the formatter in a [`setupFilesAfterEnv` configuration file](https://jestjs.io/docs/configuration#setupfilesafterenv-array).
 
 As a one-time thing also need to:
 - Open Chrome's Devtools
@@ -36,7 +38,7 @@ As a one-time thing also need to:
 ## Development
 
 The source code is all plain vanilla JS and standard CommonJS modules.
-Tests are written using [Jest](https://facebook.github.io/jest/)
+Tests are written using [Jest](https://jestjs.io/)
 
 See package.json's `scripts` sections for all available commands. The most useul ones are probably:
 
@@ -64,7 +66,7 @@ npm run test:manual_node
 npm run test:manual_jest
 ```
 
-It should stop at the `debugger` call, from there you can follow the inlined comment with instructions to play with the console output.
+It should stop at the `debugger` call site, from there you can follow the inlined comment with instructions to play with the console output.
 
 
 ## Related resources
@@ -72,6 +74,5 @@ It should stop at the `debugger` call, from there you can follow the inlined com
 - https://github.com/jsdom/jsdom
 - [Custom Object Formatters in Chrome DevTools (gdoc)](https://bit.ly/object-formatters)
 - [Contributing to Chrome DevTools (gdoc)](https://bit.ly/devtools-contribution-guide)
-- [Debugging Node.js with Chrome DevTools (medium)](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27)
 - [Debugging Node.js Apps](https://nodejs.org/en/docs/inspector/)
-- [Debugger, Advanced usage, V8 Inspector Integration for Node.js](https://nodejs.org/dist/latest-v8.x/docs/api/debugger.html#debugger_v8_inspector_integration_for_node_js)
+- [Debugger, Advanced usage, V8 Inspector Integration for Node.js](https://nodejs.org/dist/latest-v18.x/docs/api/debugger.html#v8-inspector-integration-for-nodejs)
