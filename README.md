@@ -39,6 +39,9 @@ The source code is all plain vanilla JS and standard CommonJS modules.
 Tests are written using [Jest](https://facebook.github.io/jest/)
 
 See package.json's `scripts` sections for all available commands. The most useul ones are probably:
+
+### Automated Tests
+
 ```bash
 # run all tests once:
 npm test
@@ -48,11 +51,12 @@ npm test -- --watch
 ```
 
 
-### Testing
+### Manual Testing
+
 In addition to verifying _logical changes_ using the automated tests, it's recommended to verify that things "look & feel" as expected using the _manual_ tests:
 
-- Open chrome://inspect and click the "Open dedicated DevTools for Node" link (one-time thing)
-- Then run one of the following commands
+- Open [chrome://inspect](chrome://inspect) and click the _"Open dedicated DevTools for Node"_ link
+- Then run:
 
 ```bash
 npm run test:manual_node

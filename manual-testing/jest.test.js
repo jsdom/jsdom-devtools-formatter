@@ -1,8 +1,5 @@
 const exampleDomFixture = require('./example-dom-fixture');
 
-const jsdomDevtoolsFormatter = require("../index")
-jsdomDevtoolsFormatter.install();
-
 test("manual", () => {
   document.body.innerHTML = exampleDomFixture;
 
