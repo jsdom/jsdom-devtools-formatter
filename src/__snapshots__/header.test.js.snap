@@ -1,17 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`header returns a ellipsis for a complicated DOM element 1`] = `
-Array [
+[
   "span",
-  Object {
+  {
     "style": "
     color: rgb(168, 148, 166);
   ",
   },
   "<",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(136, 18, 128);
   ",
@@ -19,9 +19,9 @@ Array [
     "div",
   ],
   " ",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(153, 69, 0);
     unicode-bidi: -webkit-isolate;
@@ -29,10 +29,10 @@ Array [
     },
     "class",
   ],
-  "=\\"",
-  Array [
+  "="",
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(26, 26, 166);
     unicode-bidi: -webkit-isolate;
@@ -40,11 +40,11 @@ Array [
     },
     "foo bar baz",
   ],
-  "\\"",
+  """,
   " ",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(153, 69, 0);
     unicode-bidi: -webkit-isolate;
@@ -52,10 +52,10 @@ Array [
     },
     "id",
   ],
-  "=\\"",
-  Array [
+  "="",
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(26, 26, 166);
     unicode-bidi: -webkit-isolate;
@@ -63,11 +63,11 @@ Array [
     },
     "root",
   ],
-  "\\"",
+  """,
   ">",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: black;
     unicode-bidi: -webkit-isolate;
@@ -76,9 +76,9 @@ Array [
     "…",
   ],
   "<",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(136, 18, 128);
   ",
@@ -90,17 +90,17 @@ Array [
 `;
 
 exports[`header returns summary for a simple DOM element 1`] = `
-Array [
+[
   "span",
-  Object {
+  {
     "style": "
     color: rgb(168, 148, 166);
   ",
   },
   "<",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(136, 18, 128);
   ",
@@ -108,9 +108,9 @@ Array [
     "div",
   ],
   ">",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: black;
     unicode-bidi: -webkit-isolate;
@@ -119,9 +119,9 @@ Array [
     "test text",
   ],
   "<",
-  Array [
+  [
     "span",
-    Object {
+    {
       "style": "
     color: rgb(136, 18, 128);
   ",

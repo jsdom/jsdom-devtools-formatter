@@ -1,34 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`body returns expected JsonML for 1st-level elements 1`] = `
-Array [
+[
   "ol",
-  Object {
+  {
     "style": "
     list-style-type: none;
     margin: 2px 0 0 28px;
     padding: 0;
   ",
   },
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
     "",
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
-    Array [
+    [
       "object",
-      Object {
+      {
         "object": <h1
           id="title"
         >
@@ -37,25 +37,25 @@ Array [
       },
     ],
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
     "",
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
-    Array [
+    [
       "object",
-      Object {
+      {
         "object": <article
           class="example"
         >
@@ -75,25 +75,25 @@ Array [
       },
     ],
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
     "",
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
-    Array [
+    [
       "object",
-      Object {
+      {
         "object": <div
           class=""
         >
@@ -106,25 +106,25 @@ Array [
       },
     ],
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
     "",
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
     },
-    Array [
+    [
       "object",
-      Object {
+      {
         "object": <footer>
           
         Foo bar
@@ -133,9 +133,9 @@ Array [
       },
     ],
   ],
-  Array [
+  [
     "li",
-    Object {
+    {
       "style": "
     margin-bottom: 2px;
   ",
